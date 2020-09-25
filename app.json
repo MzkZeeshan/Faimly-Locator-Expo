@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "faimlyLocator",
+    "slug": "faimlyLocator",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyB8-1zKxczZ7KvvINym-QBtgzALR_jjzqM",
+        "authDomain": "nearservicess.firebaseapp.com",
+        "databaseURL": "https://nearservicess.firebaseio.com",
+        "projectId": "nearservicess",
+        "storageBucket": "nearservicess.appspot.com",
+        "messagingSenderId": "387914383269"
+      },
+      "facebook": {
+        "appId": "359079634925228"
+      }
+    }
+  }
+}
